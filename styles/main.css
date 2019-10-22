@@ -1,0 +1,128 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #f0ffff;
+}
+
+.navbar {
+  background-color: #333333;
+  padding: 1% 0;
+  font-size: 1.2em;
+}
+
+.navbar-brand {
+  min-height: 55px;
+  padding: 0 15px 5px;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #d5d5d5;
+}
+
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a.active {
+  color: #ffffff;
+}
+
+#home {
+  background: url(/images/landing-background.jpg) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+.landing-text {
+  background-color: rgba(0, 0, 0, 0.3);
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+}
+
+.landing-text h1 {
+  font-size: 5em;
+  font-weight: 700;
+}
+
+.padding {
+  padding: 80px 0;
+}
+
+.padding img {
+  width: 100%;
+}
+
+.btn {
+  background-color: #d5d5d5;
+}
+
+.container h2 {
+  font-weight: bold;
+}
+
+.container h4 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.container p {
+  font-size: 1.2em;
+}
+
+#fixed {
+  background: url(/images/fixed-separator.jpg) no-repeat center center fixed;
+  display: table;
+  height: 60%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+footer {
+  width: 100%;
+  background-color: #333333;
+  padding: 5% 5% 10% 5%;
+  color: #ffffff;
+}
+
+.fab {
+  padding: 15px;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.fab:hover {
+  color: #d5d5d5;
+  text-decoration: none;
+}
+
+.icon {
+  max-width: 256px;
+}
+
+@media (max-width: 768px) {
+  .landing-text {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .landing-text h1 {
+    font-size: 3em;
+  }
+  .fab {
+    font-size: 30px;
+    padding: 10px;
+  }
+  .icon {
+    padding-top: 5%;
+    max-width: 128px;
+  }
+  .container h4 {
+    text-align: center;
+  }
+  .container p {
+    text-align: justify;
+  }
+}
+/*# sourceMappingURL=main.css.map */
