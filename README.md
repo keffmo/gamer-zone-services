@@ -1,7 +1,7 @@
 # Website for Gamer Zone Services
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/keffmo/gamer-zone-website/blob/master/LICENSE)
-[![Version](https://img.shields.io/badge/version-0.1.3-orange.svg)](https://github.com/keffmo/gamer-zone-website/releases)
+[![Version](https://img.shields.io/badge/version-0.2-orange.svg)](https://github.com/keffmo/gamer-zone-website/releases)
 
 Gamer Zone has launched their own business to support the gaming community with lag free server instances and communication servers and channels. Everything at very low costs and excellent service guaranteed.
 
