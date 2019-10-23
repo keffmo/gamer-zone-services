@@ -40,36 +40,36 @@ body {
   text-align: center;
   vertical-align: middle;
   color: #ffffff;
-}
 
-.landing-text h1 {
-  font-size: 5em;
-  font-weight: 700;
+  h1 {
+    font-size: 5em;
+    font-weight: 700;
+  }
 }
 
 .padding {
   padding: 80px 0;
-}
 
-.padding img {
-  width: 100%;
+  img {
+    width: 100%;
+  }
 }
 
 .btn {
   background-color: #d5d5d5;
 }
 
-.container h2 {
-  font-weight: bold;
-}
-
-.container h4 {
-  font-size: 1.5em;
-  font-weight: bold;
-}
-
-.container p {
-  font-size: 1.2em;
+.container {
+  h2 {
+    font-weight: bold;
+  }
+  h4 {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  p {
+    font-size: 1.2em;
+  }
 }
 
 #fixed {
@@ -94,8 +94,17 @@ footer {
   color: #ffffff;
 }
 
-.fab:hover {
-  color: #d5d5d5;
+.fa-facebook-square:hover {
+  color: #3d5999;
+  text-decoration: none;
+}
+
+.fa-twitter-square:hover {
+  color: #55acee;
+  text-decoration: none;
+}
+.fa-youtube-square:hover {
+  color: #c4302b;
   text-decoration: none;
 }
 
@@ -104,11 +113,14 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .navbar-brand img {
+    height: 48px;
+  }
   .landing-text {
     background-color: rgba($color: #000000, $alpha: 0.5);
-  }
-  .landing-text h1 {
-    font-size: 3em;
+    h1 {
+      font-size: 3em;
+    }
   }
   .fab {
     font-size: 30px;
@@ -118,10 +130,12 @@ footer {
     padding-top: 5%;
     max-width: 128px;
   }
-  .container h4 {
-    text-align: center;
-  }
-  .container p {
-    text-align: justify;
+  .container {
+    h4 {
+      text-align: center;
+    }
+    p {
+      text-align: justify;
+    }
   }
 }

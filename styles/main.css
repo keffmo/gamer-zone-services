@@ -94,8 +94,18 @@ footer {
   color: #ffffff;
 }
 
-.fab:hover {
-  color: #d5d5d5;
+.fa-facebook-square:hover {
+  color: #3d5999;
+  text-decoration: none;
+}
+
+.fa-twitter-square:hover {
+  color: #55acee;
+  text-decoration: none;
+}
+
+.fa-youtube-square:hover {
+  color: #c4302b;
   text-decoration: none;
 }
 
@@ -104,6 +114,9 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .navbar-brand img {
+    height: 48px;
+  }
   .landing-text {
     background-color: rgba(0, 0, 0, 0.5);
   }
